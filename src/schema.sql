@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS calculation_history (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    expression TEXT NOT NULL,
+    result REAL NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
